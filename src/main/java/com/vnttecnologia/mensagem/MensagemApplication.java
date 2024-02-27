@@ -1,7 +1,5 @@
 package com.vnttecnologia.mensagem;
 
-import java.util.Scanner;
-
 import javax.swing.JOptionPane;
 
 import org.springframework.boot.SpringApplication;
@@ -21,6 +19,9 @@ public class MensagemApplication {
 		//read();
 		//update();
 		//delete();
+	}
+	
+	
 	@PostConstruct
 	public static void create() {
 		System.out.println("Cria um registro");			
